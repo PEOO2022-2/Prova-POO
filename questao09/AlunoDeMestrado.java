@@ -1,8 +1,8 @@
 package questao09;
 
-import questao08.Questao08;
+import questao08.Aluno;
 
-public class AlunoDeMestrado extends Questao08 {
+public class AlunoDeMestrado extends Aluno {
     public int semestreAtual;
 
     public AlunoDeMestrado(String nome) {

@@ -1,11 +1,11 @@
 package questao08;
 
-public abstract class Questao08 {
+public abstract class Aluno {
     public String nome;
     public float nota1;
     public float nota2;
 
-    public Questao08(String nome) {
+    public Aluno(String nome) {
         this.nome = nome;
     }
 
