@@ -2,10 +2,10 @@ package questao09;
 
 import questao08.Aluno;
 
-public class AlunoDeMestrado extends Aluno {
+public class AlunoDePos extends Aluno {
     public int semestreAtual;
 
-    public AlunoDeMestrado(String nome) {
+    public AlunoDePos(String nome) {
         super(nome);
     }
 
