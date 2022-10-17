@@ -10,7 +10,7 @@ public class AlunoDeGraduacao extends Aluno {
     }
 
     @Override
-    public float calcularMedia() {
+    public double calcularMedia() {
         return (this.nota1 + this.nota2)/2;
     }
 }

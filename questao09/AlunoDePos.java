@@ -10,7 +10,7 @@ public class AlunoDePos extends Aluno {
     }
 
     @Override
-    public float calcularMedia() {
+    public double calcularMedia() {
         return (float) ((this.nota1*0.4 + this.nota2*0.6)/10);
     }
 }
