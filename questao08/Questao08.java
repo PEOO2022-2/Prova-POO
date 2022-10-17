@@ -1,3 +1,5 @@
+package questao08;
+
 public abstract class Questao08 {
     public String nome;
     public float nota1;
@@ -31,5 +33,5 @@ public abstract class Questao08 {
         this.nota2 = nota2;
     }
 
-    abstract float calcularMedia();
+    public abstract float calcularMedia();
 }
