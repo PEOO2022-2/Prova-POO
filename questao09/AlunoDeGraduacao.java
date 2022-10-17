@@ -1,8 +1,8 @@
 package questao09;
 
-import questao08.Questao08;
+import questao08.Aluno;
 
-public class AlunoDeGraduacao extends Questao08 {
+public class AlunoDeGraduacao extends Aluno {
     public int semestreAtual;
 
     public AlunoDeGraduacao(String nome) {
@@ -10,7 +10,7 @@ public class AlunoDeGraduacao extends Questao08 {
     }
 
     @Override
-    public float calcularMedia() {
+    public double calcularMedia() {
         return (this.nota1 + this.nota2)/2;
     }
 }
