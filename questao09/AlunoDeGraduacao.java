@@ -3,10 +3,11 @@ package questao09;
 import questao08.Aluno;
 
 public class AlunoDeGraduacao extends Aluno {
-    public int semestreAtual;
+    private String semestreDeEntrada;
 
-    public AlunoDeGraduacao(String nome) {
+    public AlunoDeGraduacao(String nome, String semestreDeEntrada) {
         super(nome);
+        this.semestreDeEntrada = semestreDeEntrada;
     }
 
     @Override
