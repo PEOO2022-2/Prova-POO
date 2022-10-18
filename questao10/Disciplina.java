@@ -41,9 +41,9 @@ public class Disciplina {
     }
 
     //item d
-    public float calcularMediaTotal(String tipoAluno){
+    public double calcularMediaTotal(String tipoAluno){
         int qtde = 0;
-        int medias = 0;
+        double medias = 0;
         for (Aluno aluno:alunos){
             if (tipoAluno == "graduacao" && aluno instanceof AlunoDeGraduacao){
                 medias += aluno.calcularMedia();
