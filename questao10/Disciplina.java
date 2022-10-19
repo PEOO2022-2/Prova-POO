@@ -80,6 +80,12 @@ public class Disciplina {
                 }
             }
         }
+
+        for (Aluno aluno: melhoresAlunos) {
+            System.out.println(aluno.getNome());
+            System.out.println(aluno.calcularMedia());
+        }
+
         return melhoresAlunos;
     }
 }
